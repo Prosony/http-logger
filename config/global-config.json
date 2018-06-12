@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+
+  "DataBase": {
+    "URL": "mongodb://185.77.204.249:27017/logger-data"
+  },
+  "Server": {
+    "PORT": 3030
+  },
+  "Session": {
+    "SECRET": "i need more beers",
+    "RESAVE": false,
+    "SAVEUNITILAZIED": true
+  },
+  "Status": {
+    "AUTH": false
+  }
+}
